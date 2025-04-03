@@ -1,0 +1,50 @@
+Keyword, "const", line 1, length 5
+Variable, "x", line 1, length 1
+Operator, "=", line 1, length 1
+Operator, "-", line 1, length 1
+Double, "3.78", line 1, length 4
+Double, ".88", line 1, length 3
+Separator, ";", line 1, length 1
+Keyword, "function", line 2, length 8
+Variable, "increment", line 2, length 9
+Separator, "(", line 2, length 1
+Separator, ")", line 2, length 1
+Separator, "{", line 2, length 1
+Integer, "44", line 3, length 2
+Variable, "x", line 3, length 1
+Operator, "++", line 3, length 2
+Separator, ";", line 3, length 1
+Separator, "}", line 4, length 1
+Separator, ";", line 4, length 1
+Variable, "increment", line 5, length 9
+Separator, "(", line 5, length 1
+Separator, ")", line 5, length 1
+Separator, ";", line 5, length 1
+Variable, "console", line 6, length 7
+Operator, ".", line 6, length 1
+Variable, "log", line 6, length 3
+Separator, "(", line 6, length 1
+Variable, "x", line 6, length 1
+Separator, ")", line 6, length 1
+Separator, ";", line 6, length 1
+Keyword, "let", line 7, length 3
+Variable, "str1", line 7, length 4
+Operator, "=", line 7, length 1
+String, ""Hello, World\""", line 7, length 16
+Keyword, "let", line 8, length 3
+Variable, "str2", line 8, length 4
+Operator, "=", line 8, length 1
+String, "'Hell"\'o, World\''", line 8, length 19
+Keyword, "let", line 9, length 3
+Variable, "str3", line 9, length 4
+Operator, "=", line 9, length 1
+String, "`Hell\`o, \Worl\d`", line 9, length 18
+Multiline comment, "/* x cannot be incremented
+because it is constant
+*/", lines 10-12, length 52
+Multiline comment, "/*** I am a new multiline comment *\**
+
+// I am also a comment
+
+/* Success, I am closed */", lines 12-16, length 90
+End of file, line 16

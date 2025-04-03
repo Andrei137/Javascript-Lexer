@@ -1,0 +1,163 @@
+Multiline comment, "/* ; */", line 1, length 7
+Keyword, "function", line 2, length 8
+Variable, "comment", line 2, length 7
+Separator, "(", line 2, length 1
+Separator, ")", line 2, length 1
+Separator, "{", line 2, length 1
+Comment, "// This is a one line JavaScript comment", line 3, length 40
+Multiline comment, "/* This comment spans multiple lines.
+                            Notice
+     that we don
+  't need to end the comment until
+                  we're done. */", lines 4-8, length 157
+Variable, "console", line 9, length 7
+Operator, ".", line 9, length 1
+Variable, "log", line 9, length 3
+Separator, "(", line 9, length 1
+String, ""Hello!"", line 9, length 8
+Separator, ")", line 9, length 1
+Separator, ";", line 9, length 1
+Separator, "}", line 10, length 1
+Variable, "comment", line 11, length 7
+Separator, "(", line 11, length 1
+Separator, ")", line 11, length 1
+Separator, ";", line 11, length 1
+Comment, "// Class declaration", line 13, length 20
+Keyword, "class", line 14, length 5
+Variable, "A", line 14, length 1
+Separator, "{", line 14, length 1
+Variable, "a", line 15, length 1
+Operator, "=", line 15, length 1
+Integer, "1", line 15, length 1
+Separator, ";", line 15, length 1
+Separator, "[", line 16, length 1
+Variable, "b", line 16, length 1
+Separator, "]", line 16, length 1
+Operator, "=", line 16, length 1
+Integer, "2", line 16, length 1
+Separator, ";", line 16, length 1
+Separator, "}", line 17, length 1
+Integer, "13", line 19, length 2
+Variable, "aa", line 19, length 2
+Keyword, "const", line 21, length 5
+Variable, "c", line 21, length 1
+Operator, "=", line 21, length 1
+Operator, "new", line 21, length 3
+Variable, "A", line 21, length 1
+Separator, "(", line 21, length 1
+Separator, ")", line 21, length 1
+Separator, ";", line 21, length 1
+Comment, "// Variable declaration (may also be `let` or `var`)", line 21, length 52
+Variable, "console", line 22, length 7
+Operator, ".", line 22, length 1
+Variable, "log", line 22, length 3
+Separator, "(", line 22, length 1
+Variable, "c", line 22, length 1
+Operator, ".", line 22, length 1
+Variable, "a", line 22, length 1
+Operator, ",", line 22, length 1
+Variable, "c", line 22, length 1
+Separator, "[", line 22, length 1
+Variable, "b", line 22, length 1
+Separator, "]", line 22, length 1
+Separator, ")", line 22, length 1
+Separator, ";", line 22, length 1
+Keyword, "let", line 23, length 3
+Variable, "d", line 23, length 1
+Operator, "=", line 23, length 1
+Integer, "2", line 23, length 1
+Operator, "**", line 23, length 2
+Integer, "3", line 23, length 1
+Separator, ";", line 23, length 1
+Keyword, "function", line 24, length 8
+Variable, "fn", line 24, length 2
+Separator, "(", line 24, length 1
+Separator, ")", line 24, length 1
+Separator, "{", line 24, length 1
+Separator, "}", line 24, length 1
+Comment, "// Function declaration", line 24, length 23
+Keyword, "const", line 25, length 5
+Variable, "obj", line 25, length 3
+Operator, "=", line 25, length 1
+Separator, "{", line 25, length 1
+Variable, "key", line 25, length 3
+Operator, ":", line 25, length 1
+String, ""value"", line 25, length 7
+Separator, "}", line 25, length 1
+Separator, ";", line 25, length 1
+Comment, "// Object keys", line 25, length 14
+Variable, "lbl", line 26, length 3
+Operator, ":", line 26, length 1
+Variable, "console", line 26, length 7
+Operator, ".", line 26, length 1
+Variable, "log", line 26, length 3
+Separator, "(", line 26, length 1
+Integer, "1", line 26, length 1
+Separator, ")", line 26, length 1
+Separator, ";", line 26, length 1
+Comment, "// Label", line 26, length 8
+Keyword, "let", line 28, length 3
+Variable, "regex", line 28, length 5
+Operator, "=", line 28, length 1
+Regex, "/hello/", line 28, length 7
+Separator, ";", line 28, length 1
+Variable, "regex", line 29, length 5
+Operator, "=", line 29, length 1
+Regex, "/\d+/g", line 29, length 6
+Separator, ";", line 29, length 1
+Variable, "regex", line 30, length 5
+Operator, "=", line 30, length 1
+Regex, "/[a-zA-Z]+/i", line 30, length 12
+Separator, ";", line 30, length 1
+Variable, "regex", line 31, length 5
+Operator, "=", line 31, length 1
+Regex, "/[\w.-]+@[a-zA-Z]+\.[a-zA-Z]{2,}/", line 31, length 33
+Separator, ";", line 31, length 1
+Keyword, "const", line 33, length 5
+Variable, "longString", line 33, length 10
+Operator, "=", line 33, length 1
+String, ""This is a \"very\" long \ string which needs \
+  to wrap across multiple lines because"", lines 34-35, length 88
+Operator, "+", line 35, length 1
+String, "'otherwise \'my\' code is unreadable.'", line 36, length 38
+Operator, "+", line 36, length 1
+String, "`string \`text\``", line 37, length 17
+Operator, "+", line 37, length 1
+String, "`string text ${expression} string text`", line 38, length 39
+Separator, ";", line 38, length 1
+Keyword, "do", line 40, length 2
+Separator, "{", line 40, length 1
+Keyword, "var", line 41, length 3
+Variable, "e", line 41, length 1
+Operator, "=", line 41, length 1
+Exponential, "1e-3", line 41, length 4
+Operator, "+", line 41, length 1
+Exponential, "0E3", line 41, length 3
+Separator, ";", line 41, length 1
+Variable, "e", line 42, length 1
+Operator, "=", line 42, length 1
+Octal, "012", line 42, length 3
+Separator, ";", line 42, length 1
+Variable, "e", line 43, length 1
+Operator, "=", line 43, length 1
+Binary, "0b11", line 43, length 4
+Separator, ";", line 43, length 1
+Variable, "e", line 44, length 1
+Operator, "=", line 44, length 1
+Octal, "0O12", line 44, length 4
+Separator, ";", line 44, length 1
+Variable, "e", line 45, length 1
+Operator, "=", line 45, length 1
+Hexadecimal, "0xFF", line 45, length 4
+Separator, ";", line 45, length 1
+Variable, "e", line 46, length 1
+Operator, "=", line 46, length 1
+BigInt, "0x123456789ABCDEFn", line 46, length 18
+Separator, ";", line 46, length 1
+Separator, "}", line 47, length 1
+Keyword, "while", line 47, length 5
+Separator, "(", line 47, length 1
+Variable, "condition", line 47, length 9
+Separator, ")", line 47, length 1
+Multiline comment, "/* ; */", line 47, length 7
+End of file, line 48

@@ -1,0 +1,41 @@
+Keyword, "const", line 1, length 5
+Variable, "x", line 1, length 1
+Operator, "=", line 1, length 1
+Integer, "3", line 1, length 1
+Separator, ";", line 1, length 1
+Keyword, "function", line 2, length 8
+Variable, "increment", line 2, length 9
+Separator, "(", line 2, length 1
+Separator, ")", line 2, length 1
+Separator, "{", line 2, length 1
+Variable, "x", line 3, length 1
+Operator, "++", line 3, length 2
+Separator, ";", line 3, length 1
+Separator, "}", line 4, length 1
+Separator, ";", line 4, length 1
+Variable, "increment", line 5, length 9
+Separator, "(", line 5, length 1
+Separator, ")", line 5, length 1
+Separator, ";", line 5, length 1
+Variable, "console", line 6, length 7
+Operator, ".", line 6, length 1
+Variable, "log", line 6, length 3
+Separator, "(", line 6, length 1
+Variable, "x", line 6, length 1
+Separator, ")", line 6, length 1
+Separator, ";", line 6, length 1
+Keyword, "let", line 7, length 3
+Variable, "str1", line 7, length 4
+Operator, "=", line 7, length 1
+String, ""Hello, World\" \
+let str2 = 'Hell\'o, World\'"", lines 7-8, length 47
+Keyword, "let", line 9, length 3
+Variable, "str3", line 9, length 4
+Operator, "=", line 9, length 1
+String, "`Hell\`o, \Worl\d`", line 9, length 18
+Multiline comment, "/* x cannot be incremented
+because it is constant
+*/", lines 10-12, length 52
+Multiline comment, "/*** I am a new multiline comment *\***/", line 12, length 40
+Comment, "// I am also a comment", line 14, length 22
+Error, unterminated multiline comment starting at line 16
